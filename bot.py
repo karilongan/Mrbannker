@@ -39,8 +39,30 @@ BOT_ID = bot_info.id
 
 # USE YOUR ROTATING PROXY API IN DICT FORMAT http://user:pass@providerhost:port
 proxies = {
-           'http': 'http://qnuomzzl-rotate:4i44gnayqk7c@p.webshare.io:80/',
-           'https': 'http://qnuomzzl-rotate:4i44gnayqk7c@p.webshare.io:80/'
+           'http': 'http://jcwzakwh:sdadzta7u6y1@45.142.28.83:8094/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.140.13.124:9137/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.140.13.112:9125/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.142.28.20:8031/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.140.13.119:9132/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.142.28.145:8156/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.142.28.187:8198/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.142.28.130:8141/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@45.140.13.208:9221/',
+'http': 'http://jcwzakwh:sdadzta7u6y1@176.116.231.158:7500/',
+
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.142.28.83:8094/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.140.13.124:9137/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.140.13.112:9125/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.142.28.20:8031/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.140.13.119:9132/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.142.28.145:8156/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.142.28.187:8198/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.142.28.130:8141/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@45.140.13.208:9221/',
+'https': 'https://jcwzakwh:sdadzta7u6y1@176.116.231.158:7500/'
+
+
+
 }
 
 session = requests.Session()
