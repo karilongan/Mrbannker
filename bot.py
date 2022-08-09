@@ -39,8 +39,8 @@ BOT_ID = bot_info.id
 
 # USE YOUR ROTATING PROXY API IN DICT FORMAT http://user:pass@providerhost:port
 proxies = {
-           'http': 'http://jcwzakwh:sdadzta7u6y1@45.142.28.83:8094/',
-           'https': 'https://jcwzakwh:sdadzta7u6y1@45.142.28.83:8094/'
+           'http': 'http://jcwzakwh-rotate:sdadzta7u6y1@p.webshare.io:80/',
+           'https': 'https://jcwzakwh-rotate:sdadzta7u6y1@p.webshare.io:80/'
 
 }
 
