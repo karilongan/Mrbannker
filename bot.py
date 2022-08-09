@@ -38,11 +38,14 @@ BOT_NAME = bot_info.first_name
 BOT_ID = bot_info.id
 
 # USE YOUR ROTATING PROXY API IN DICT FORMAT http://user:pass@providerhost:port
-proxies = {
-           'http': 'http://jcwzakwh-rotate:sdadzta7u6y1@p.webshare.io:80/',
-           'https': 'https://jcwzakwh-rotate:sdadzta7u6y1@p.webshare.io:80/'
 
-}
+requests.get(
+    "https://ipv4.webshare.io/",
+    proxies={
+        "http": "http://jcwzakwh-rotate:sdadzta7u6y1@p.webshare.io:80/",
+        "https": "http://jcwzakwh-rotate:sdadzta7u6y1@p.webshare.io:80/"
+    }
+)
 
 session = requests.Session()
 
