@@ -175,7 +175,6 @@ async def ch(message: types.Message):
             "content-type": "application/x-www-form-urlencoded"
         }
 
-        ////b = session.get('https://ip.seeip.org/', proxies=proxies).text////
 
         s = session.post('https://m.stripe.com/6', headers=headers, proxies=proxies)
         r = s.json()
